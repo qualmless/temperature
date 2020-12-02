@@ -16,24 +16,26 @@
 <body>
     <div class="container">
         <form>
-            <section>
                 <p>input value for conversion: 
+                    <!-- runs conversion function  on key up-->
                     <input id="inputValue" type="text" onkeyup="whichConvert()">
                 </p>
                 <p  id="answerInputLabel">Answer Value
                     <input type="text" id="finalValue">
                 </p>
-            </section>
 
-            <label for="fahrenheitRadio">Fahrenheit
+            <!-- radio buttons for conversion type -->
+            <label for="fahrenheitRadio">Fahrenheit to Celsius
                 <input type="radio" name="degree" id="fahrenheitRadio" required>
             </label>
-            <label for="celsiusRadio">Celsius
+            <label for="celsiusRadio">Celsius to Fahrenheit
                 <input type="radio" name="degree" id="celsiusRadio">
             </label>
+
             <!-- <button class="btn" onclick="fToCelsius()">Submit</button> -->
 
-        </form>   
+        </form> 
+          <!--error message, only displays if no radio button selected  -->
         <p id="errorMessage"></p>
     </div>
 
