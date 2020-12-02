@@ -15,7 +15,7 @@
     <div class="container">
         <form>
             <p>input value for conversion: 
-                <input id="inputValue" type="text" onkeyup="fToCelsius(), whichConvert()">
+                <input id="inputValue" type="text" onkeyup="whichConvert()">
             </p>
             <label for="fahrenheitRadio">Fahrenheit
                 <input type="radio" name="degree" id="fahrenheitRadio">
@@ -26,7 +26,7 @@
             <!-- <button class="btn" onclick="fToCelsius()">Submit</button> -->
 
         </form>   
-        <p>The value is <span id="finalValue"></span></p>
+        <p id="valueAnswer">The value is <span id="finalValue"></span></p>
     </div>
 
 
