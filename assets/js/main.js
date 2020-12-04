@@ -1,8 +1,4 @@
 function whichConvert(){
-
-    // pulls in data type radio buttons
-    // let fahrenheitRadio = document.getElementById("fahrenheitRadio").checked;
-    // let celsiusRadio = document.getElementById("celsiusRadio").checked;
     
     // pulls in radio button values
     const unitType = document.querySelectorAll('input[name="unit"]');

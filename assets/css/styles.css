@@ -81,9 +81,9 @@
   }
 
 /*//////////////////////////////////////////////////////////////////
-[ RESTYLE TAG ]*/ 
+[  ]*/ 
 
-/*-----------------takes all styling from input to replace with fresh styles----------------------------*/
+/*-----------------takes all styling from input to prepare with fresh styles----------------------------*/
 input {
 	outline: none;
 	border: none;
@@ -119,7 +119,7 @@ textarea::-moz-placeholder { color: #999999; }
 textarea:-ms-input-placeholder { color: #999999; }
 
 /*------------------------------------------------------------------
-[  ]*/
+[ input styles ]*/
 
 .wrap-input2 {
     width: 100%;
